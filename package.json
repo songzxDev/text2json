@@ -1,6 +1,6 @@
 {
   "name": "textarea2json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist",
   "scripts": {
@@ -10,7 +10,9 @@
     "major": "npm version major && npm publish && git push --follow-tags"
   },
   "keywords": [
-    "textarea","json","text"
+    "textarea",
+    "json",
+    "text"
   ],
   "repository": {
     "type": "git",
