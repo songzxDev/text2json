@@ -1,0 +1,26 @@
+{
+  "name": "text2json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "patch": "npm version patch && npm publish && git push --follow-tags",
+    "minor": "npm version minor && npm publish && git push --follow-tags",
+    "major": "npm version major && npm publish && git push --follow-tags"
+  },
+  "keywords": [
+    "textarea","json","text"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stoneyallen/text2json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
